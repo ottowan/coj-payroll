@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -140,7 +140,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const MainFooter = () => {
   return __jsx("footer", {
-    className: "footer",
+    className: "footer ",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -148,7 +148,7 @@ const MainFooter = () => {
       columnNumber: 5
     }
   }, __jsx("div", {
-    className: "content has-text-centered",
+    className: "container has-text-right ",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -169,31 +169,44 @@ const MainFooter = () => {
       lineNumber: 8,
       columnNumber: 11
     }
-  }, "Bulma"), " by ", __jsx("a", {
-    href: "https://jgthms.com",
+  }, "\u0E1E\u0E31\u0E12\u0E19\u0E32"), " \u0E42\u0E14\u0E22 ", __jsx("a", {
+    href: "https://techno.coj.go.th",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8,
-      columnNumber: 37
+      columnNumber: 38
     }
-  }, "Jeremy Thomas"), ". The source code is licensed", __jsx("a", {
-    href: "http://opensource.org/licenses/mit-license.php",
+  }, "\u0E2A\u0E33\u0E19\u0E31\u0E01\u0E40\u0E17\u0E04\u0E42\u0E19\u0E42\u0E25\u0E22\u0E35\u0E2A\u0E32\u0E23\u0E2A\u0E19\u0E40\u0E17\u0E28"), ". \u0E2A\u0E33\u0E19\u0E31\u0E01\u0E07\u0E32\u0E19\u0E28\u0E32\u0E25\u0E22\u0E38\u0E15\u0E34\u0E18\u0E23\u0E23\u0E21", __jsx("a", {
+    href: "https://www.coj.go.th",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
-      columnNumber: 7
+      columnNumber: 11
     }
-  }, "MIT"), ". The website content is licensed ", __jsx("a", {
-    href: "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  }, " COJ "), ". ", __jsx("br", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 54
+    }
+  }), "\u0E0A\u0E31\u0E49\u0E19 4 \u0E2D\u0E32\u0E04\u0E32\u0E23\u0E28\u0E32\u0E25\u0E2D\u0E32\u0E0D\u0E32 \u0E16\u0E19\u0E19\u0E23\u0E31\u0E0A\u0E14\u0E32\u0E20\u0E34\u0E40\u0E29\u0E01  ", __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 19
+      columnNumber: 46
     }
-  }, "CC BY NC SA 4.0"), ".")));
+  }), "\u0E41\u0E02\u0E27\u0E07\u0E08\u0E2D\u0E21\u0E1E\u0E25 \u0E40\u0E02\u0E15\u0E08\u0E15\u0E38\u0E08\u0E31\u0E01\u0E23 \u0E01\u0E23\u0E38\u0E07\u0E40\u0E17\u0E1E\u0E21\u0E2B\u0E32\u0E19\u0E04\u0E23 10900", __jsx("br", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 49
+    }
+  }), "\u0E15\u0E34\u0E14\u0E15\u0E48\u0E2D\u0E1C\u0E39\u0E49\u0E14\u0E39\u0E41\u0E25\u0E40\u0E27\u0E47\u0E1A\u0E44\u0E0B\u0E15\u0E4C Webmaster : it@coj.go.th")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MainFooter);
@@ -231,7 +244,7 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 8,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -239,7 +252,7 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 9,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -247,7 +260,7 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 10,
       columnNumber: 11
     }
   }, __jsx("a", {
@@ -256,7 +269,7 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 13,
       columnNumber: 13
     }
   }, __jsx("img", {
@@ -266,7 +279,7 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 14,
       columnNumber: 15
     }
   })), __jsx("span", {
@@ -275,28 +288,28 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 17,
       columnNumber: 13
     }
   }, __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 18,
       columnNumber: 15
     }
   }), __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 19,
       columnNumber: 15
     }
   }), __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 20,
       columnNumber: 15
     }
   }))), __jsx("div", {
@@ -305,7 +318,7 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 23,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -313,7 +326,7 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 25,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -322,16 +335,27 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 26,
       columnNumber: 15
     }
-  }, "\u0E2B\u0E19\u0E49\u0E32\u0E2B\u0E19\u0E31\u0E01"), __jsx("a", {
+  }, __jsx("i", {
+    className: "fas fa-home",
+    style: {
+      marginRight: 10
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 17
+    }
+  }), "\u0E2B\u0E19\u0E49\u0E32\u0E2B\u0E25\u0E31\u0E01"), __jsx("a", {
     href: "#",
     className: "navbar-item is-secondary",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 29,
       columnNumber: 15
     }
   }, "\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E1C\u0E39\u0E49\u0E1E\u0E34\u0E1E\u0E32\u0E01\u0E29\u0E32"), __jsx("a", {
@@ -340,25 +364,15 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 32,
       columnNumber: 15
     }
   }, "\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E40\u0E08\u0E49\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48"), __jsx("a", {
-    href: "#",
-    className: "navbar-item is-secondary modal-trigger",
-    "data-modal": "auth-modal",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 15
-    }
-  }, "\u0E04\u0E39\u0E48\u0E21\u0E37\u0E2D\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19"), __jsx("a", {
     className: "navbar-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 36,
       columnNumber: 15
     }
   }, __jsx("span", {
@@ -366,10 +380,10 @@ const MainHeader = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 37,
       columnNumber: 17
     }
-  }, "Log in")))))));
+  }, "\u0E04\u0E39\u0E48\u0E21\u0E37\u0E2D\u0E01\u0E32\u0E23\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MainHeader);
@@ -473,7 +487,7 @@ const Index = () => {
         columnNumber: 41
       }
     })), __jsx("span", {
-      className: "tag ",
+      className: "tag",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
@@ -486,7 +500,7 @@ const Index = () => {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 10,
-        columnNumber: 45
+        columnNumber: 44
       }
     }, str2), "\xA0", str3));
   };
@@ -494,13 +508,19 @@ const Index = () => {
   const {
     0: title,
     1: setTitle
-  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(titleInit("สำหรับพิมพ์สลิปเงินเดือน ", "รายบุคคล", ""));
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(titleInit("สำหรับพิมพ์สลิปเงินเดือน ", "รายบุคคล", "ข้าราชการตุลาการ"));
+  const {
+    0: selectLogin,
+    1: setSelectLogin
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("ผู้พิพากษา");
 
   const handleClick = e => {
     if (e.target.dataset.value == "2") {
       setTitle(titleInit("สำหรับ ", "เจ้าหน้าที่ ", "พิมพ์สลิปเงินเดือนข้าราชการตุลาการทั้งหน่วยงาน"));
+      setSelectLogin("เจ้าหน้าที่");
     } else {
-      setTitle(titleInit("สำหรับพิมพ์สลิปเงินเดือน ", "รายบุคคล", ""));
+      setTitle(titleInit("สำหรับพิมพ์สลิปเงินเดือน ", "รายบุคคล", "ข้าราชการตุลาการ"));
+      setSelectLogin("ผู้พิพากษา");
     }
   };
 
@@ -508,7 +528,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 32,
       columnNumber: 5
     }
   }, __jsx("div", {
@@ -516,7 +536,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 33,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -524,7 +544,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 34,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -532,7 +552,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 35,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -540,7 +560,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 36,
       columnNumber: 13
     }
   }, __jsx("img", {
@@ -550,7 +570,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 37,
       columnNumber: 15
     }
   }), __jsx("h2", {
@@ -561,22 +581,22 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 38,
       columnNumber: 15
     }
   }, "\u0E23\u0E30\u0E1A\u0E1A\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E2A\u0E25\u0E34\u0E1B\u0E40\u0E07\u0E34\u0E19\u0E40\u0E14\u0E37\u0E2D\u0E19", __jsx("strong", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 38,
       columnNumber: 102
     }
-  }, "\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E15\u0E38\u0E25\u0E32\u0E01\u0E32\u0E23"), "\u0E28\u0E32\u0E25\u0E22\u0E38\u0E15\u0E34\u0E18\u0E23\u0E23\u0E21 "), __jsx("div", {
+  }, " \u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E15\u0E38\u0E25\u0E32\u0E01\u0E32\u0E23 "), "\u0E28\u0E32\u0E25\u0E22\u0E38\u0E15\u0E34\u0E18\u0E23\u0E23\u0E21 "), __jsx("div", {
     className: "button-wrap",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 39,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -586,7 +606,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 40,
       columnNumber: 17
     }
   }, "\u0E1C\u0E39\u0E49\u0E1E\u0E34\u0E1E\u0E32\u0E01\u0E29\u0E32"), __jsx("a", {
@@ -596,7 +616,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 48,
       columnNumber: 17
     }
   }, "\u0E40\u0E08\u0E49\u0E32\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48"))), __jsx("div", {
@@ -605,7 +625,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 58,
       columnNumber: 13
     }
   }), __jsx("div", {
@@ -613,40 +633,41 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 60,
       columnNumber: 13
     }
   }, __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 61,
       columnNumber: 15
     }
   }, __jsx("h2", {
-    className: "subtitle is-5 is-muted is-danger",
+    className: "subtitle",
     style: {
-      marginTop: 20
+      marginTop: 20,
+      color: "#f39200"
     },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 63,
       columnNumber: 17
     }
-  }, "\u0E23\u0E30\u0E1A\u0E1A\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E2A\u0E25\u0E34\u0E1B\u0E40\u0E07\u0E34\u0E19\u0E40\u0E14\u0E37\u0E2D\u0E19", __jsx("strong", {
+  }, "\u0E23\u0E30\u0E1A\u0E1A\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E2A\u0E25\u0E34\u0E1B\u0E40\u0E07\u0E34\u0E19\u0E40\u0E14\u0E37\u0E2D\u0E19 ", __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 114
+      lineNumber: 64,
+      columnNumber: 42
     }
-  }, "\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E15\u0E38\u0E25\u0E32\u0E01\u0E32\u0E23"), "\u0E28\u0E32\u0E25\u0E22\u0E38\u0E15\u0E34\u0E18\u0E23\u0E23\u0E21 "), __jsx("article", {
+  }, "\u0E02\u0E49\u0E32\u0E23\u0E32\u0E0A\u0E01\u0E32\u0E23\u0E15\u0E38\u0E25\u0E32\u0E01\u0E32\u0E23"), " \u0E28\u0E32\u0E25\u0E22\u0E38\u0E15\u0E34\u0E18\u0E23\u0E23\u0E21"), __jsx("article", {
     className: "panel is-warning",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 66,
       columnNumber: 17
     }
   }, __jsx("p", {
@@ -654,15 +675,15 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 67,
       columnNumber: 19
     }
-  }, "\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A"), __jsx("div", {
+  }, "\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A (", selectLogin, ")"), __jsx("div", {
     className: "panel-block",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 71,
       columnNumber: 19
     }
   }, __jsx("p", {
@@ -670,7 +691,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 73,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -681,7 +702,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 74,
       columnNumber: 23
     }
   }), __jsx("span", {
@@ -689,7 +710,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 75,
       columnNumber: 23
     }
   }, __jsx("i", {
@@ -697,7 +718,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 76,
       columnNumber: 25
     }
   })))), __jsx("div", {
@@ -705,7 +726,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 80,
       columnNumber: 19
     }
   }, __jsx("p", {
@@ -713,7 +734,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 82,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -724,7 +745,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 83,
       columnNumber: 23
     }
   }), __jsx("span", {
@@ -732,7 +753,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 84,
       columnNumber: 23
     }
   }, __jsx("i", {
@@ -740,7 +761,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 85,
       columnNumber: 25
     }
   })), __jsx("span", {
@@ -748,7 +769,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 88,
       columnNumber: 23
     }
   }, __jsx("i", {
@@ -756,7 +777,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 89,
       columnNumber: 25
     }
   })))), __jsx("div", {
@@ -764,7 +785,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 94,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -772,7 +793,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 95,
       columnNumber: 21
     }
   }, __jsx("button", {
@@ -780,21 +801,21 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 96,
       columnNumber: 23
     }
-  }, "\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A"), __jsx("br", {
+  }, "\u0E40\u0E02\u0E49\u0E32\u0E2A\u0E39\u0E48\u0E23\u0E30\u0E1A\u0E1A "), __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 78
+      lineNumber: 96,
+      columnNumber: 79
     }
   }))))), __jsx("hr", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 101,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -802,7 +823,7 @@ const Index = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 102,
       columnNumber: 15
     }
   }, title))))));
@@ -812,7 +833,7 @@ const Index = () => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

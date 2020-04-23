@@ -7,21 +7,24 @@ const Index = () => {
     return (
       <div className="tags has-addons" style={{ marginBottom: 10 }}>
         <span className="tag is-danger"><i className="fas fa-watch" /></span>
-        <span className="tag "> {str1}&nbsp;<strong className="has-text-danger">{str2}</strong>&nbsp;{str3}</span>
+        <span className="tag"> {str1}&nbsp;<strong className="has-text-danger">{str2}</strong>&nbsp;{str3}</span>
       </div>
     )
   }
 
-  const [title, setTitle] = useState(titleInit("สำหรับพิมพ์สลิปเงินเดือน ", "รายบุคคล", ""))
+  const [title, setTitle] = useState(titleInit("สำหรับพิมพ์สลิปเงินเดือน ", "รายบุคคล", "ข้าราชการตุลาการ"))
+  const [selectLogin, setSelectLogin] = useState("ผู้พิพากษา")
 
   const handleClick = (e) => {
 
     if (e.target.dataset.value == "2") {
 
       setTitle(titleInit("สำหรับ ", "เจ้าหน้าที่ ", "พิมพ์สลิปเงินเดือนข้าราชการตุลาการทั้งหน่วยงาน"))
+      setSelectLogin("เจ้าหน้าที่")
     } else {
 
-      setTitle(titleInit("สำหรับพิมพ์สลิปเงินเดือน ", "รายบุคคล", ""))
+      setTitle(titleInit("สำหรับพิมพ์สลิปเงินเดือน ", "รายบุคคล", "ข้าราชการตุลาการ"))
+      setSelectLogin("ผู้พิพากษา")
     }
   }
 
@@ -32,7 +35,7 @@ const Index = () => {
           <div className="columns is-vcentered">
             <div className="column is-6 is-offset-1 landing-caption">
               <img src="/static/images/logo.png" alt="Logo" width="300" />
-              <h2 className="subtitle is-5 is-muted" style={{ marginTop: 20 }}>ระบบพิมพ์สลิปเงินเดือน<strong>ข้าราชการตุลาการ</strong>ศาลยุติธรรม </h2>
+              <h2 className="subtitle is-5 is-muted" style={{ marginTop: 20 }}>ระบบพิมพ์สลิปเงินเดือน<strong> ข้าราชการตุลาการ </strong>ศาลยุติธรรม </h2>
               <div className="button-wrap">
                 <a
 
@@ -57,11 +60,13 @@ const Index = () => {
             <div className="column is-5 text-align-top">
               <div>
 
-                <h2 className="subtitle is-5 is-muted is-danger" style={{ marginTop: 20 }}>ระบบพิมพ์สลิปเงินเดือน<strong>ข้าราชการตุลาการ</strong>ศาลยุติธรรม </h2>
+                <h2 className="subtitle" style={{ marginTop: 20, color: "#f39200" }}>
+                  ระบบพิมพ์สลิปเงินเดือน <a>ข้าราชการตุลาการ</a> ศาลยุติธรรม
+                </h2>
                 <article className="panel is-warning">
                   <p className="panel-heading">
-                    เข้าสู่ระบบ
-    </p>
+                    เข้าสู่ระบบ ({selectLogin})
+                </p>
 
                   <div className="panel-block">
 
@@ -88,7 +93,7 @@ const Index = () => {
 
                   <div className="panel-block is-right">
                     <div className="buttons is-right">
-                      <button className="button is-link">เข้าสู่ระบบ</button><br />
+                      <button className="button is-link">เข้าสู่ระบบ </button><br />
                     </div>
                   </div>
                 </article>
