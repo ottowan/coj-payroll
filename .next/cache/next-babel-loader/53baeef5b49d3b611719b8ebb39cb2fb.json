@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Fragment } from \"react\";\n\nvar MainFooter = function MainFooter() {\n  return __jsx(Fragment, null, \"Footer\");\n};\n\nexport default MainFooter;","map":null,"metadata":{},"sourceType":"module"}

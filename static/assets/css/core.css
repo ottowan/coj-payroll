@@ -1,0 +1,115 @@
+.bd-notice {
+  background-color: #3273dc;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.bd-notice-body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1152px;
+}
+
+.navbar.is-fresh {
+  max-height: 5rem;
+}
+
+.hero-body .title.is-bold {
+  font-weight: 700;
+}
+.hero-body .title {
+  font-family: "Montserrat", sans-serif !important;
+  color: #444f60;
+}
+.title.is-1 {
+  font-size: 3rem;
+}
+
+.hero-body .subtitle.is-muted {
+  color: #999;
+}
+.subtitle.is-5 {
+  font-size: 1.25rem;
+}
+
+.hero-body .landing-caption .button {
+  min-width: 130px;
+}
+.button.primary-btn {
+  outline: none;
+  border-color: #4fc1ea;
+  background-color: #4fc1ea;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.button.cta {
+  font-size: 1rem;
+  font-weight: 500;
+  height: 44px;
+}
+.button.is-rounded {
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+}
+.button.secondary-btn {
+  outline: none;
+  border-color: #f39200;
+  background-color: #f39200;
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.button.signup-button {
+  font-weight: 500;
+  height: 44px;
+  width: 120px;
+}
+.button.rounded {
+  border-radius: 500px;
+}
+.button {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.button {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(0.5em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  margin-right: 0.5em;
+}
+
+.logo-brand .logo-brand-img {
+  height: 120px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  z-index: 99;
+  position: relative;
+}
+img {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+}
+
+.is-vcentered {
+  margin-top: 20px;
+}
+
+
