@@ -1,6 +1,8 @@
 import React from "react";
+import MainHOC from "../component/main.hoc";
 
-const slip = (props) => {
+const Slip = (props) => {
+
   return (
     <div className="hero-body is-fullheight">
       <div className="container">
@@ -276,11 +278,13 @@ const slip = (props) => {
         </div>
         <div className="control">
           <center>
-            <button className="button is-primary">พิมพ์</button>
+            <button className="button is-primary" onClick={() => window.print()}>
+              พิมพ์
+            </button>
           </center>
         </div>
       </div>
     </div>
   );
 };
-export default slip;
+export default Slip;
