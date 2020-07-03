@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import MainHOC from "../component/main.hoc";
 import fetch from "unfetch";
-import {
-  ToastsContainer,
-  ToastsStore,
-  ToastsContainerPosition,
-} from "react-toasts";
+// import {
+//   ToastsContainer,
+//   ToastsStore,
+//   ToastsContainerPosition,
+// } from "react-toasts";
 
 // const customStyles = {
 //   content: {
@@ -186,12 +186,12 @@ const Index = (props) => {
 
   return (
     <MainHOC>
-      {resError.status && (
+      {/* {resError.status && (
         <ToastsContainer
           store={ToastsStore}
           position={ToastsContainerPosition.TOP_RIGHT}
         />
-      )}
+      )} */}
       <div className="hero-body is-fullheight">
         <div className="container">
           <div className="columns is-vcentered">
