@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MainHOC from "../component/main.hoc";
 import fetch from "unfetch";
+import Link from "next/link";
 // import {
 //   ToastsContainer,
 //   ToastsStore,
@@ -274,8 +275,13 @@ const Index = (props) => {
                     <div className="buttons is-right">
                       <button className="button is-link" onClick={handleSubmit}>
                         {login.status && { selectLogin }}
-                        เข้าสู่ระบบ{" "}
+                        เข้าสู่ระบบ
                       </button>
+                      <Link href="/forgot_pass">
+                      <button className="button" >
+                        ลืมรหัสผ่าน/เปลี่ยนรหัสผ่าน
+                      </button>
+                      </Link>
                       <br />
                     </div>
                   </div>
